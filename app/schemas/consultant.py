@@ -97,10 +97,9 @@ class Consultant(ConsultantBase):
 
 
     class Config:
-        from_attributes = True
-
-class ConsultantStatusDashboard(BaseModel):
+        from_attributes = Trueclass ConsultantStatusDashboard(BaseModel):
     resume_status: str
     attendance_report: str
     opportunities_provided: int
     training_progress: str 
+
